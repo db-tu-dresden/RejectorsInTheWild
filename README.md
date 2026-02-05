@@ -116,7 +116,7 @@ Most of the workflow lives in Jupyter notebooks under `./notebooks`. Longer-runn
 
 ---
 
-## Directory Structure
+## Directory Structure (after executing all files)
 
 ```
 root/
