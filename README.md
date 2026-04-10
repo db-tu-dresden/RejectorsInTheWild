@@ -8,7 +8,7 @@ Most of the workflow lives in Jupyter notebooks under `./notebooks`. Longer-runn
 
 ## Rebuttal
 
-We have added the following files that contain additional experiments asked for the Rebuttal:
+We have added the following files that contain the additional experiments requested for the rebuttal:
 
 * **`./notebooks/Rebuttal_Barrier1_analyzeHumanLabels.ipynb`**
   Computes accuracy for F1 and BLEU-4 on 1,000 random balanced subsets and splits the F1 results into the individual datasets.
