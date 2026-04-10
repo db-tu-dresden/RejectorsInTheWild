@@ -6,6 +6,16 @@ Most of the workflow lives in Jupyter notebooks under `./notebooks`. Longer-runn
 
 ---
 
+## Rebuttal
+
+We have added the following files that contain additional experiments asked for the Rebuttal:
+
+* **`./notebooks/Rebuttal_Barrier1_analyzeHumanLabels.ipynb`**
+  Computes accuracy for F1 and BLEU-4 on 1,000 random balanced subsets and splits the F1 results into the individual datasets.
+
+* **`./notebooks/Rebuttal_Barrier1_entailment_capability.ipynb`**
+  Applies NLI-based approaches to the MATH and OpenbookQA datasets.
+
 ## Barrier I — Sensitivity of Rejectors
 
 * **`./notebooks/Barrier1_downloadHelm.ipynb`**
