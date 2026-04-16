@@ -16,6 +16,15 @@ We have added the following files that contain the additional experiments reques
 * **`./notebooks/Rebuttal_Barrier1_entailment_capability.ipynb`**
   Applies NLI-based approaches to the MATH and OpenbookQA datasets.
 
+* **`./notebooks/Rebuttal_Barrier1_combination.ipynb`**
+  Applies F1 to BLEU-4 samples and vice versa, and constructs composite labeling rules. Additionally, it analyzes the results of the trained rejectors on correctness datasets created with OR and AND composite rules.
+
+* **`./src/Rebuttal_Barrier1_rejectors.py`**
+  Trains rejectors on correctness datasets created with composite labeling rules (OR and AND).
+
+* **`./results/figures/Rebuttal_Barrier1_and_combination.pdf`** and **`./results/figures/Rebuttal_Barrier1_or_combination.pdf`**
+  Figures showing the AUROC of trained rejectors for composite labeling rules (OR and AND).
+
 ## Barrier I — Sensitivity of Rejectors
 
 * **`./notebooks/Barrier1_downloadHelm.ipynb`**
