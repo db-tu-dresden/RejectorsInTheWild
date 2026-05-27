@@ -6,25 +6,6 @@ Most of the workflow lives in Jupyter notebooks under `./notebooks`. Longer-runn
 
 ---
 
-## Rebuttal
-
-We have added the following files that contain the additional experiments requested for the rebuttal:
-
-* **`./notebooks/Rebuttal_Barrier1_analyzeHumanLabels.ipynb`**
-  Computes accuracy for F1 and BLEU-4 on 1,000 random balanced subsets and splits the F1 results into the individual datasets.
-
-* **`./notebooks/Rebuttal_Barrier1_entailment_capability.ipynb`**
-  Applies NLI-based approaches to the MATH and OpenbookQA datasets.
-
-* **`./notebooks/Rebuttal_Barrier1_combination.ipynb`**
-  Applies F1 to BLEU-4 samples and vice versa, and constructs composite labeling rules. Additionally, it analyzes the results of the trained rejectors on correctness datasets created with OR and AND composite rules.
-
-* **`./src/Rebuttal_Barrier1_rejectors.py`**
-  Trains rejectors on correctness datasets created with composite labeling rules (OR and AND).
-
-* **`./results/figures/Rebuttal_Barrier1_and_combination.pdf`** and **`./results/figures/Rebuttal_Barrier1_or_combination.pdf`**
-  Figures showing the AUROC of trained rejectors for composite labeling rules (OR and AND).
-
 ## Barrier I — Sensitivity of Rejectors
 
 * **`./notebooks/Barrier1_downloadHelm.ipynb`**
@@ -132,6 +113,24 @@ We have added the following files that contain the additional experiments reques
 
 * **`./notebooks/Barrier3_evaluateRouters.ipynb`**
   Collects baselines and routing strategies and compares performance
+
+---
+
+## Appendix
+
+We have added the following files that contain the additional experiments reported in the appendix:
+
+* **`./notebooks/Appendix_Barrier1_analyzeHumanLabels.ipynb`**
+  Computes accuracy for F1 and BLEU-4 on 1,000 random balanced subsets and splits the F1 results into the individual datasets.
+
+* **`./notebooks/Appendix_Barrier1_entailment_capability.ipynb`**
+  Applies NLI-based approaches to the MATH and OpenbookQA datasets.
+
+* **`./notebooks/Appendix_Barrier1_combination.ipynb`**
+  Applies F1 to BLEU-4 samples and vice versa, and constructs composite labeling rules. Additionally, it analyzes the results of the trained rejectors on correctness datasets created with OR and AND composite rules.
+
+* **`./src/Appendix_Barrier1_rejectors.py`**
+  Trains rejectors on correctness datasets created with composite labeling rules (OR and AND).
 
 ---
 
